@@ -74,22 +74,9 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="space-y-3">
             <h3 className="text-xl">Photography</h3>
-            <ul className="space-y-2 text-gray-600">
-              <li>• Kinds of photos you take/are skilled at</li>
-            </ul>
           </div>
           <div className="space-y-3">
             <h3 className="text-xl">Videography</h3>
-            <ul className="space-y-2 text-gray-600">
-              <li>• Kinds of videos you take/are skilled at</li>
-            </ul>
-          </div>
-          <div className="space-y-3">
-            <h3 className="text-xl">Graphics</h3>
-            <ul className="space-y-2 text-gray-600">
-              <li>• </li>
-
-            </ul>
           </div>
         </div>
       </section>
