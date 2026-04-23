@@ -80,6 +80,11 @@ export default function About() {
     <div className="space-y-3">
       <h3 className="text-xl">Videography</h3>
     </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-16 justify-items-center text-center">
+    <div className="space-y-3">
+      <h3 className="text-xl">Editing</h3>
+    </div>
+    </div>
   </div>
 </section>
 
