@@ -108,8 +108,8 @@ return (
         </div>
       </section>
 
-      {/* Services */}
-      <section className="bg-gray-50 py-16">
+  {/* Services */}
+    {/* <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl mb-12 text-center">Video Services (may delete)</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -133,8 +133,8 @@ return (
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}  
+      
     {activeVideo && (
       <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center"
       onClick={() => setActiveVideo(null)}
