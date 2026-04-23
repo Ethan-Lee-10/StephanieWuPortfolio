@@ -2,6 +2,7 @@ import Root from "./styles/components/Root";
 import Home from "./styles/components/Home";
 import Photos from "./styles/components/Photos";
 import Videos from "./styles/components/Videos";
+import Graphics from "./styles/components/Graphics";
 import About from "./styles/components/About";
 import Contact from "./styles/components/Contact";
 
@@ -19,6 +20,10 @@ export function PhotosPage() {
 
 export function VideosPage() {
   return <Videos />;
+}
+
+export function GraphicsPage() {
+  return <Graphics />;
 }
 
 export function AboutPage() {
