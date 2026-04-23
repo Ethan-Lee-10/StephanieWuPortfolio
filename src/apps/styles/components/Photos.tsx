@@ -23,11 +23,6 @@ import dog3 from "../../../assets/img/dog3.jpg"
 
 const photos = [
   {
-    id: 1,
-    src: frontal2,
-    category: "Category",
-  },
-  {
     id: 5,
     src: golden1,
     category: "Golden Hour",
@@ -65,7 +60,7 @@ const photos = [
   {
     id: 12,
     src: mystery4,
-    category: "Still Portraits",
+    category: "Still Portrait",
   },
   {
     id: 13,
@@ -132,7 +127,7 @@ export default function Photos() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl mb-4">Photography</h1>
           <p className="text-xl text-gray-600 max-w-2xl">
-            A sentence or two about your work
+            Capturing the still moments in life
           </p>
         </div>
       </section>

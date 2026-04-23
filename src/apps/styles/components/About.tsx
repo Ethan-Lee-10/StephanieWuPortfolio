@@ -9,9 +9,6 @@ export default function About() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl mb-4">About Me</h1>
-          <p className="text-xl text-gray-600 max-w-2xl">
-            What you do/sell yourself
-          </p>
         </div>
       </section>
 
@@ -21,13 +18,7 @@ export default function About() {
           <div className="space-y-6">
             <h2 className="text-4xl">Hello, I'm Stephanie Wu</h2>
             <p className="text-lg text-gray-600">
-              Experience personal or academic
-            </p>
-            <p className="text-lg text-gray-600">
-              Explanation of work
-            </p>
-            <p className="text-lg text-gray-600">
-              Bio if you want
+              I'm a college student with a strong interest in photography, videography, and editing. I enjoy capturing moments and turning them into visuals that tell a story, and I'm always trying to improve and try new creative ideas.
             </p>
           </div>
           <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
@@ -94,12 +85,10 @@ export default function About() {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="text-xl">Post-Production</h3>
+            <h3 className="text-xl">Graphics</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>• Adobe Lightroom</li>
-              <li>• Premier Pro 2026</li>
-              <li>• Photoshop</li>
-              <li>• Canva Premium</li>
+              <li>• </li>
+
             </ul>
           </div>
         </div>
@@ -113,13 +102,17 @@ export default function About() {
             <div className="bg-white p-8 rounded-lg">
               <h3 className="text-xl mb-4">Camera Bodies</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Whatever camera equipment you use/have</li>
+                <li>• Sony A6700 </li>
+                <li>• Canon Rebel T7 </li>
               </ul>
             </div>
             <div className="bg-white p-8 rounded-lg">
               <h3 className="text-xl mb-4">Softwares</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Whatever editing softwares you are proficient in</li>
+                <li>• Adobe Lightroom </li>
+                <li>• Adobe Premiere Pro 2026 </li>
+                <li>• Photoshop </li>
+                <li>• Canva Pro</li>
               </ul>
             </div>
           </div>
