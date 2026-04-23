@@ -3,9 +3,6 @@ import { ImageWithFallback } from "./Error/ImageWithFallback";
 import { useState } from "react";
 import { X } from "lucide-react";
 import frontal2 from "../../../assets/img/frontal2.jpg";
-import frontal from "../../../assets/img/frontal.jpg";
-import bench from "../../../assets/img/bench.jpg";
-import photopopup from "../../../assets/img/photopopup.jpg";
 import golden1 from "../../../assets/img/golden1.jpg"
 import golden2 from "../../../assets/img/golden2.jpg"
 import golden3 from "../../../assets/img/golden3.jpg"
@@ -28,127 +25,91 @@ const photos = [
   {
     id: 1,
     src: frontal2,
-    title: "Title",
-    category: "Category",
-  },
-  {
-    id: 2,
-    src: bench,
-    title: "Title",
-    category: "Category",
-  },
-  {
-    id: 3,
-    src: photopopup,
-    title: "Title",
-    category: "Category",
-  },
-  {
-    id: 4,
-    src: frontal,
-    title: "Title",
     category: "Category",
   },
   {
     id: 5,
     src: golden1,
-    title: "Title",
     category: "Category",
   },
   {
     id: 6,
     src: golden2,
-    title: "Title",
     category: "Category",
   },
   {
     id: 7,
     src: golden3,
-    title: "Title",
     category: "Category",
   },
   {
     id: 8,
     src: golden4,
-    title: "Title",
     category: "Category",
   },
   {
     id: 9,
     src: mystery1,
-    title: "Title",
     category: "Category",
   },
   {
     id: 10,
     src: mystery2,
-    title: "Title",
     category: "Category",
   },
   {
     id: 11,
     src: mystery3,
-    title: "Title",
     category: "Category",
   },
   {
     id: 12,
     src: mystery4,
-    title: "Title",
     category: "Category",
   },
   {
     id: 13,
     src: breathe1,
-    title: "Title",
     category: "Category",
   },
   {
     id: 14,
     src: breathe2,
-    title: "Title",
     category: "Category",
   },
   {
     id: 15,
     src: breathe3,
-    title: "Title",
     category: "Category",
   },
   {
     id: 16,
     src: warm1,
-    title: "Title",
     category: "Category",
   },
   {
     id: 17,
     src: warm2,
-    title: "Title",
     category: "Category",
   },
   {
     id: 18,
     src: warm3,
-    title: "Title",
     category: "Category",
   },
   {
     id: 19,
     src: dog1,
-    title: "Title",
     category: "Category",
   },
   {
     id: 20,
     src: dog2,
-    title: "Title",
     category: "Category",
   },
   {
     id: 21,
     src: dog3,
-    title: "Title",
     category: "Category",
   },
 ];
@@ -209,12 +170,10 @@ export default function Photos() {
               >
                 <ImageWithFallback
                   src={photo.src}
-                  alt={photo.title}
                   className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
                   <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4">
-                    <p className="text-lg">{photo.title}</p>
                     <p className="text-sm text-gray-300">{photo.category}</p>
                   </div>
                 </div>
@@ -240,11 +199,9 @@ export default function Photos() {
           <div className="max-w-5xl max-h-[90vh]">
             <ImageWithFallback
               src={lightboxImage.src}
-              alt={lightboxImage.title}
               className="max-w-full max-h-[90vh] object-contain"
             />
             <div className="text-center text-white mt-4">
-              <p className="text-xl">{lightboxImage.title}</p>
               <p className="text-sm text-gray-400">{lightboxImage.category}</p>
             </div>
           </div>
