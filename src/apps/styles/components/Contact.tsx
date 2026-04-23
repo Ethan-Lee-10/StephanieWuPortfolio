@@ -77,7 +77,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
-                  placeholder="your@email.com"
+                  placeholder="newstephwu101@gmail.com"
                 />
               </div>
               <div>
@@ -151,10 +151,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg mb-1">Phone</h3>
                   <a
-                    href="tel: +1 your phone num"
+                    href="tel: +16142821937"
                     className="text-gray-600 hover:text-gray-900 transition-colors"
                   >
-                    +1 your phone num
+                    +1 (614) 282-1937
                   </a>
                 </div>
               </div>
@@ -162,29 +162,11 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg mb-1">Location</h3>
                   <p className="text-gray-600">
-                    Watchung, NJ
+                    Piscataway/Warren, NJ
                     <br />
                     United States
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* Social Links */}
-            <div>
-              <h3 className="text-xl mb-4">Follow Me</h3>
-              <div className="flex gap-4">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-900 hover:text-white transition-colors"
-                  aria-label="Instagram"
-                >
-                </a>
-                <a
-                >
-                </a>
               </div>
             </div>
           </div>
