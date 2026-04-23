@@ -11,6 +11,7 @@ export default function Root() {
     { path: "/", label: "Home" },
     { path: "/photos", label: "Photos" },
     { path: "/videos", label: "Videos" },
+    {path: "/graphics", label: "Graphics"},
     { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
