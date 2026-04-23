@@ -77,7 +77,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
-                  placeholder="newstephwu101@gmail.com"
+                  placeholder="Your email"
                 />
               </div>
               <div>
@@ -137,10 +137,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg mb-1">Email</h3>
                   <a
-                    href="your email"
+                    href="newstephwu101@gmail.com"
                     className="text-gray-600 hover:text-gray-900 transition-colors"
                   >
-                    your email
+                    newstephwu101@gmail.com
                   </a>
                 </div>
               </div>
