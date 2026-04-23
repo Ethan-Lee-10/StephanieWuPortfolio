@@ -9,6 +9,7 @@ export default function Navbar() {
         <Link to="/" className="hover:text-black transition">Home</Link>
         <Link to="/photos" className="hover:text-black transition">Photos</Link>
         <Link to="/videos" className="hover:text-black transition">Videos</Link>
+        <Link to="/graphics" className="hover:text-black transition">Graphics</Link>
         <Link to="/about" className="hover:text-black transition">About</Link>
         <Link to="/contact" className="hover:text-black transition">Contact</Link>
       </nav>

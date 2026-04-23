@@ -2,7 +2,6 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { ImageWithFallback } from "./Error/ImageWithFallback";
 import { useState } from "react";
 import { X } from "lucide-react";
-import frontal2 from "../../../assets/img/frontal2.jpg";
 import golden1 from "../../../assets/img/golden1.jpg"
 import golden2 from "../../../assets/img/golden2.jpg"
 import golden3 from "../../../assets/img/golden3.jpg"

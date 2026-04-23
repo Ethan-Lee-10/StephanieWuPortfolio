@@ -12,27 +12,27 @@ const photos = [
   {
     id: 1,
     src: graphic1,
-    category: "",
+    category: "style",
   },
   {
     id: 2,
     src: graphic2,
-    category: "",
+    category: "style",
   },
   {
     id: 3,
     src: graphic3,
-    category: "",
+    category: "promo",
   },
   {
     id: 4,
     src: graphic4,
-    category: "",
+    category: "promo",
   },
   {
     id: 5,
     src: graphic5,
-    category: "",
+    category: "promo",
   },  
 ]
 const categories = ["All", ...new Set(photos.map((p) => p.category))];
