@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { RootPage, HomePage, PhotosPage, VideosPage, AboutPage, ContactPage } from "./pages";
+import { RootPage, HomePage, PhotosPage, VideosPage, GraphicsPage, AboutPage, ContactPage } from "./pages";
 
 export const router = createBrowserRouter([
   {
@@ -9,6 +9,7 @@ export const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "photos", element: <PhotosPage /> },
       { path: "videos", element: <VideosPage /> },
+      { path: "graphics", element: <GraphicsPage /> },
       { path: "about", element: <AboutPage /> },
       { path: "contact", element: <ContactPage /> },
     ],
@@ -25,6 +26,7 @@ export function Sidebar() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/photos">Photos</Link></li>
           <li><Link to="/videos">Videos</Link></li>
+          <li><Link to="/graphics">Graphics</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
