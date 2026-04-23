@@ -6,6 +6,24 @@ import frontal2 from "../../../assets/img/frontal2.jpg";
 import frontal from "../../../assets/img/frontal.jpg";
 import bench from "../../../assets/img/bench.jpg";
 import photopopup from "../../../assets/img/photopopup.jpg";
+import golden1 from "../../../assets/img/golden1.jpg"
+import golden2 from "../../../assets/img/golden2.jpg"
+import golden3 from "../../../assets/img/golden3.jpg"
+import golden4 from "../../../assets/img/golden4.jpg"
+import mystery1 from "../../../assets/img/mystery1.jpg"
+import mystery2 from "../../../assets/img/mystery2.jpg"
+import mystery3 from "../../../assets/img/mystery3.jpg"
+import mystery4 from "../../../assets/img/mystery4.jpg"
+import breathe1 from "../../../assets/img/breathe1.jpg"
+import breathe2 from "../../../assets/img/breathe2.jpg"
+import breathe3 from "../../../assets/img/breathe3.jpg"
+import warm1 from "../../../assets/img/warm1.jpg"
+import warm2 from "../../../assets/img/warm2.jpg"
+import warm3 from "../../../assets/img/warm3.jpg"
+import dog1 from "../../../assets/img/dog1.jpg"
+import dog2 from "../../../assets/img/dog2.jpg"
+import dog3 from "../../../assets/img/dog3.jpg"
+
 const photos = [
   {
     id: 1,
@@ -28,6 +46,108 @@ const photos = [
   {
     id: 4,
     src: frontal,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 5,
+    src: golden1,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 6,
+    src: golden2,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 7,
+    src: golden3,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 8,
+    src: golden4,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 9,
+    src: mystery1,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 10,
+    src: mystery2,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 11,
+    src: mystery3,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 12,
+    src: mystery4,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 13,
+    src: breathe1,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 14,
+    src: breathe2,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 15,
+    src: breathe3,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 16,
+    src: warm1,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 17,
+    src: warm2,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 18,
+    src: warm3,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 19,
+    src: dog1,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 20,
+    src: dog2,
+    title: "Title",
+    category: "Category",
+  },
+  {
+    id: 21,
+    src: dog3,
     title: "Title",
     category: "Category",
   },
