@@ -1,5 +1,6 @@
 import { Mail, Phone, Send } from "lucide-react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -9,11 +10,29 @@ export default function Contact() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Mock form submission
-    alert("Thank you for your message! I'll get back to you soon.");
-    setFormData({ name: "", email: "", subject: "", message: "" });
+  
+    try {
+      await emailjs.send(
+        "service_igyj01v",
+        "template_w6v4e0j",
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "qPrqvxu-xxKUEkYB3"
+      );
+  
+      alert("Message sent successfully!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+  
+    } catch (error) {
+      console.error(error);
+      alert("Something went wrong. Try again.");
+    }
   };
 
   const handleChange = (

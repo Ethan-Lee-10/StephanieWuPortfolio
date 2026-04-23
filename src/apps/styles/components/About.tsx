@@ -1,4 +1,3 @@
-import { Camera, Video, Award, Users } from "lucide-react";
 import { ImageWithFallback } from "./Error/ImageWithFallback";
 import steph from "../../../assets/img/steph.jpg";
 
