@@ -5,7 +5,6 @@ import { X } from "lucide-react";
 import golden1 from "../../../assets/img/golden1.jpg"
 import golden2 from "../../../assets/img/golden2.jpg"
 import golden3 from "../../../assets/img/golden3.jpg"
-import golden4 from "../../../assets/img/golden4.jpg"
 import mystery1 from "../../../assets/img/mystery1.jpg"
 import mystery2 from "../../../assets/img/mystery2.jpg"
 import mystery3 from "../../../assets/img/mystery3.jpg"
@@ -22,87 +21,82 @@ import dog3 from "../../../assets/img/dog3.jpg"
 
 const photos = [
   {
-    id: 5,
+    id: 1,
     src: golden1,
     category: "Golden Hour",
   },
   {
-    id: 6,
+    id: 2,
     src: golden2,
     category: "Golden Hour",
   },
   {
-    id: 7,
+    id: 3,
     src: golden3,
     category: "Golden Hour",
   },
   {
-    id: 8,
-    src: golden4,
-    category: "Golden Hour",
-  },
-  {
-    id: 9,
+    id: 4,
     src: mystery1,
     category: "Still Portrait",
   },
   {
-    id: 10,
+    id: 5,
     src: mystery2,
     category: "Still Portrait",
   },
   {
-    id: 11,
+    id: 6,
     src: mystery3,
     category: "Still Portrait",
   },
   {
-    id: 12,
+    id: 7,
     src: mystery4,
     category: "Still Portrait",
   },
   {
-    id: 13,
+    id: 8,
     src: breathe1,
     category: "In Bloom",
   },
   {
-    id: 14,
+    id: 9,
     src: breathe2,
     category: "In Bloom",
   },
   {
-    id: 15,
+    id: 10,
     src: breathe3,
     category: "In Bloom",
   },
   {
-    id: 16,
+    id: 11,
     src: warm1,
     category: "In Bloom",
   },
   {
-    id: 17,
+    id: 12,
     src: warm2,
     category: "In Bloom",
   },
   {
-    id: 18,
+    id: 13,
     src: warm3,
     category: "In Bloom",
   },
   {
-    id: 19,
+    id: 14,
     src: dog1,
     category: "My Dog",
   },
   {
-    id: 20,
+    id: 15,
     src: dog2,
     category: "My Dog",
   },
   {
-    id: 21,
+    id: 16,
     src: dog3,
     category: "My Dog",
   },

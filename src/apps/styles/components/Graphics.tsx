@@ -12,26 +12,31 @@ const graphics = [
   {
     id: 1,
     src: graphic1,
+    title: "A La Mode Fashion Pitch 1 - Jellyfish Design",
     category: "Style",
   },
   {
     id: 2,
     src: graphic2,
+    title: "A La Mode Fashion Pitch 2 - Y2k Street Style",
     category: "Style",
   },
   {
     id: 3,
     src: graphic3,
+    title: "Chagee Design",
     category: "Promo",
   },
   {
     id: 4,
     src: graphic4,
+    title: "Hip Hip Club Poster",
     category: "Promo",
   },
   {
     id: 5,
     src: graphic5,
+    title: "Lion Dance Club Poster",
     category: "Promo",
   },  
 ]
