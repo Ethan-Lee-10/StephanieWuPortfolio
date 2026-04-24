@@ -94,15 +94,15 @@ export default function About() {
               <h3 className="text-xl mb-4">Camera Bodies</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Sony A6700 </li>
-                <li>• Canon Rebel T7 </li>
+                <li>• Canon Rebel </li>
               </ul>
             </div>
             <div className="bg-white p-8 rounded-lg">
               <h3 className="text-xl mb-4">Softwares</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Adobe Lightroom </li>
-                <li>• Adobe Premiere Pro 2026 </li>
-                <li>• Photoshop </li>
+                <li>• Adobe Premiere Pro </li>
+                <li>• Adobe Photoshop </li>
                 <li>• Canva Pro</li>
               </ul>
             </div>
