@@ -12,28 +12,45 @@ type Video = {
 const videos: Video[] = [
   {
     id: 1,
-    src: "https://www.youtube.com/embed/J1szuo927yA",
+    src: "https://www.youtube.com/embed/KOpXWx4vtyU",
+    title: "VSA Intern Reveal 2025-2026",
+    description: "Meet the interns short film",
+    category: "Creative",
+    duration: "6:58",
+  },
+  {
+    id: 2,
+    src: "https://www.youtube.com/embed/nRiIcgmyW2E",
+    title: "VSA Intern GIM Video",
+    description: "VSA meeting recap",
+    category: "Recap",
+    duration: "0:34",
+  },
+  {
+    id: 3,
+    src: "https://www.youtube.com/embed/H6HHUPhHBHw",
+    title: "Personal Project in Garden",
+    description: "Narrative montage",
+    category: "Creative",
+    duration: "1:11",
+  },
+  {
+    id: 4,
+    src: "https://www.youtube.com/embed/Mjb0labXrfs",
     title: "Clawed By Chloo",
     description: "Promo video for nail service",
     category: "Commercial",
     duration: "0:40",
   },
   {
-    id: 2,
-    src: "https://www.youtube.com/embed/6P0bMUR9HIA",
-    title: "Intern Project",
-    description: "Behind the scenes + edits",
-    category: "Creative",
-    duration: "0:34",
-  },
-  {
-    id: 3,
-    src: "https://www.youtube.com/embed/on7VlVJCAtc",
-    title: "Risky Business",
-    description: "Cinematic storytelling piece",
-    category: "Short Film",
+    id: 5,
+    src: "https://www.youtube.com/embed/Uyf-sCeBxR0",
+    title: "VSA Big Little GIM Recap",
+    description: "VSA meeting recap",
+    category: "Recap",
     duration: "0:15",
   },
+
 ];
 export default function Videos(){
 const [activeVideo, setActiveVideo] = useState<string | null>(null);
