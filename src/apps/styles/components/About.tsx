@@ -94,7 +94,7 @@ export default function About() {
               <h3 className="text-xl mb-4">Camera Bodies</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Sony A6700 </li>
-                <li>• Canon Rebel </li>
+                <li>• Canon </li>
               </ul>
             </div>
             <div className="bg-white p-8 rounded-lg">
