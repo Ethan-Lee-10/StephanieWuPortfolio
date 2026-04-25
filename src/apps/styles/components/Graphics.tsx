@@ -88,26 +88,34 @@ export default function Graphics() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry gutter="1rem">
-            {filteredGraphics.map((photo) => (
-              <div
-                key={photo.id}
-                className="group relative overflow-hidden rounded-lg cursor-pointer"
-                onClick={() => setLightboxImage(photo)}
-              >
-                <ImageWithFallback
-                  src={photo.src}
-                  alt={`Graphic ${photo.id}`}
-                  className="group relative overflow-hidden rounded-lg cursor-pointer shadow-sm hover:shadow-xl transition duration-300"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
-                  <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4">
-                    <p className="text-sm text-gray-300">{photo.category}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+          {filteredGraphics.map((photo) => (
+  <div
+    key={photo.id}
+    onClick={() => setLightboxImage(photo)}
+    className="relative group cursor-pointer"
+  >
+    <ImageWithFallback
+      src={photo.src}
+      alt={`Graphic ${photo.id}`}
+      className="w-full rounded-lg"
+    />
+
+    {/* Overlay */}
+    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-center justify-center rounded-lg">
+      <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4">
+        <h3 className="text-lg font-medium mb-1">
+          {photo.title}
+        </h3>
+        <p className="text-sm text-gray-300">
+          {photo.category}
+        </p>
+      </div>
+    </div>
+  </div>
+))}
+  
           </Masonry>
-        </ResponsiveMasonry>
+       </ResponsiveMasonry>
       </section>
 
       {/* Lightbox */}
